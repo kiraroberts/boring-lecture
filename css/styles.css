@@ -2,17 +2,27 @@
   font-style: italic;
   font-stretch: extra-expanded;
   font-size: 35px;
-  text-align: center;
+  max-width: 50%;
+
 }
 
-img {
-  margin-left: 60px;
-  margin-top: 100px;
+img.main {
+  /*margin-left: 60px;
+  margin-top: 100px; */
   border-radius: 15px;
   border-style: ridge;
+  float: left;
+  margin-right: 15px;
+  max-width: 45%;
 }
 
 h1 {
   color: blue;
   font-size: 60px;
+}
+
+.sidebar {
+  float: right;
+  max-width: 50%;
+  background-color: lightblue;
 }
